@@ -29,7 +29,8 @@ namespace ClassMetodDemo
             musteri4.Lastname = "Bellican";
             musteri4.Id = 123456;
             musteri4.City = "Bursa";
-            Musteri[] musteri = new Musteri[] { musteri1,musteri2,musteri3,musteri4};
+
+            Musteri[] musteri = new Musteri[] { musteri1, musteri2, musteri3, musteri4 };
 
             MusteriManager musteriManager = new MusteriManager();
             foreach (Musteri musteriNo in musteri)
